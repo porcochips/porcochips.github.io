@@ -38,9 +38,9 @@ collections:
 # Comment Service
 giscus:
   repo: porcochips/porcochips.github.io
-  repo_id: SAMPLE-VALUE
+  repo_id: R_kgDOSM5tzQ
   category: Announcements
-  category_id: SAMPLE-VALUE
+  category_id: DIC_kwDOSM5tzc4C7uN6
 
 google_analytics:
   ua: SAMPLE-VALUE
