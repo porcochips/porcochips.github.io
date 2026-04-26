@@ -1,0 +1,15 @@
+---
+layout: nil
+---
+[
+{% assign all = site.posts | concat: site.wiki %}
+{% for item in all %}{% if item.public == true and item.title != 'wiki' %}
+  {
+    "title": {{ item.title | jsonify }},
+    "url": {{ item.url | prepend: site.baseurl | jsonify }},
+    "summary": {{ item.summary | default: "" | jsonify }},
+    "tag": {{ item.tag | default: "" | jsonify }},
+    "date": {{ item.date | default: item.updated | date: "%Y.%m.%d" | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endif %}{% endfor %}
+]
