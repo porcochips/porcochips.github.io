@@ -1,6 +1,6 @@
 # Site settings
 title: proco's chips
-url: "https://procochips.github.io"
+url: "https://porcochips.github.io"
 baseurl: ""
 description: ""
 
@@ -9,7 +9,7 @@ email: porcochips+blog@gmail.com
 author: porco
 profile: 이것저것 합니다.
 twitter_username: ""
-github_username: procochips
+github_username: porcochips
 comment-support: giscus
 
 # Build settings
@@ -37,7 +37,7 @@ collections:
 
 # Comment Service
 giscus:
-  repo: procochips/procochips.github.io
+  repo: porcochips/porcochips.github.io
   repo_id: SAMPLE-VALUE
   category: Announcements
   category_id: SAMPLE-VALUE
@@ -49,9 +49,9 @@ google_analytics:
 google_adsense:
   client: SAMPLE-VALUE
 
-blame: "https://github.com/procochips/procochips.github.io/blame/master/_wiki"
-edit: "https://github.com/procochips/procochips.github.io/edit/master/_wiki"
-issue: "https://github.com/procochips/procochips.github.io/issues/new"
+blame: "https://github.com/porcochips/porcochips.github.io/blame/master/_wiki"
+edit: "https://github.com/porcochips/porcochips.github.io/edit/master/_wiki"
+issue: "https://github.com/porcochips/porcochips.github.io/issues/new"
 
 timezone: "Asia/Seoul"
 
