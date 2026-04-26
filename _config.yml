@@ -1,17 +1,16 @@
 # Site settings
-title: 기계인간 John Grib
-url: "https://johngrib.github.io"
+title: proco's chips
+url: "https://procochips.github.io"
 baseurl: ""
-description: >
-    기계인간 블로그
+description: ""
 
 # My information
-email: johngrib82@gmail.com
-author: 기계인간 John Grib
-profile: 유물론자
-twitter_username: John_Grib
-github_username: johngrib
-comment-support: utterances
+email: porcochips+blog@gmail.com
+author: porco
+profile: 이것저것 합니다.
+twitter_username: ""
+github_username: procochips
+comment-support: giscus
 
 # Build settings
 plugins:
@@ -38,7 +37,7 @@ collections:
 
 # Comment Service
 giscus:
-  repo: johngrib/johngrib.github.io
+  repo: procochips/procochips.github.io
   repo_id: SAMPLE-VALUE
   category: Announcements
   category_id: SAMPLE-VALUE
@@ -50,9 +49,9 @@ google_analytics:
 google_adsense:
   client: SAMPLE-VALUE
 
-blame: "https://github.com/johngrib/johngrib.github.io/blame/master/_wiki"
-edit: "https://github.com/johngrib/johngrib.github.io/edit/master/_wiki"
-issue: "https://github.com/johngrib/johngrib.github.io/issues/new"
+blame: "https://github.com/procochips/procochips.github.io/blame/master/_wiki"
+edit: "https://github.com/procochips/procochips.github.io/edit/master/_wiki"
+issue: "https://github.com/procochips/procochips.github.io/issues/new"
 
 timezone: "Asia/Seoul"
 
