@@ -37,33 +37,34 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-body);
   color: var(--color-page-ink);
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.3px;
+  line-height: 1.25;
+  letter-spacing: -0.2px;
   margin-top: var(--sp-6);
   margin-bottom: var(--sp-3);
 }
 
-h1 { font-size: 2.2rem;  letter-spacing: -0.5px; margin: 0; }
-h2 { font-size: 1.6rem;  border-bottom: 1px solid var(--color-hairline); padding-bottom: var(--sp-1); }
-h3 { font-size: 1.3rem; }
-h4 { font-size: 1.1rem; }
-h5 { font-size: 1.0rem; }
-h6 { font-size: 0.9rem; font-weight: 600; }
+h1 { font-size: 1.7rem;  letter-spacing: -0.4px; margin-top: 0; margin-bottom: var(--sp-3); }
+h2 { font-size: 1.3rem;  border-bottom: 1px solid var(--color-hairline); padding-bottom: var(--sp-1); }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 1.0rem; }
+h5 { font-size: 0.9rem; }
+h6 { font-size: 0.85rem; font-weight: 600; }
 
-.post-content h1 { border-bottom: 2px solid var(--color-ink); }
-.post-content h2 { &:before { color: var(--color-caption); } }
-.post-content h3 { font-style: normal; }
-.post-content h4 { font-style: normal; padding-left: 0; }
-.post-content h5 { font-style: normal; padding-left: 0; }
+.post-content h1 { font-size: 1.4rem; border-bottom: 1px solid var(--color-hairline); padding-bottom: var(--sp-1); }
+.post-content h2 { font-size: 1.2rem; }
+.post-content h3 { font-size: 1.05rem; font-style: normal; }
+.post-content h4 { font-size: 1.0rem;  font-style: normal; padding-left: 0; }
+.post-content h5 { font-size: 0.9rem;  font-style: normal; padding-left: 0; }
 
 // ── Body text
 p, li {
   color: var(--color-page-ink);
-  line-height: 1.75;
+  line-height: 1.8;
 }
 
 .post-content {
-  line-height: 1.75;
+  font-size: 0.975rem;
+  line-height: 1.85;
 }
 
 // ── Blockquote

@@ -24,7 +24,38 @@
 
 .post {
   overflow-x: auto;
-  padding: var(--sp-4);
+  padding: var(--sp-2) var(--sp-3);
+}
+
+.post-header {
+  padding-bottom: var(--sp-2);
+  border-bottom: 2px solid var(--color-ink);
+  margin-bottom: var(--sp-4);
+}
+
+.post-header-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-top: var(--sp-2);
+  margin-bottom: var(--sp-2);
+}
+
+.created-date {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-caption);
+}
+
+.post-summary {
+  font-size: 1.0rem;
+  color: var(--color-caption);
+  line-height: 1.6;
+  margin: var(--sp-2) 0 0;
+  font-weight: 400;
 }
 
 // ── Tag list

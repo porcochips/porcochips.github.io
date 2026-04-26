@@ -11,30 +11,30 @@
   font-display: swap;
 }
 
-// ── Fira Code (code blocks)
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+// ── Fira Code (code blocks) + Roboto Flex (hero variable font)
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 // ── Design tokens
 :root {
   // Color — Light mode (default)
   --color-ink:        #000000;
   --color-page-ink:   #1a1a1a;
-  --color-bg:         #ffffff;
-  --color-bg-page:    #ffffff;
-  --color-caption:    #757575;
-  --color-disabled:   #999999;
-  --color-hairline:   #e2e8f0;
+  --color-bg:         #faf9f7;
+  --color-bg-page:    #faf9f7;
+  --color-caption:    #9f9b93;
+  --color-disabled:   #bbb8b2;
+  --color-hairline:   #dad4c8;
   --color-rule:       #000000;
   --color-accent:     #057dbc;
   --color-footer-bg:  #1a1a1a;
   --color-footer-fg:  #ffffff;
   --color-ribbon-bg:  #000000;
   --color-ribbon-fg:  #ffffff;
-  --color-code-bg:    #f4f4f4;
+  --color-code-bg:    #eee9df;
   --color-code-fg:    #1a1a1a;
   --color-pre-bg:     #202030;
   --color-pre-fg:     #fafafa;
-  --color-border:     #d0d0d0;
+  --color-border:     #dad4c8;
 
   // Typography
   --font-body:   'SUIT', -apple-system, sans-serif;
